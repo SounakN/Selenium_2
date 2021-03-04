@@ -23,7 +23,7 @@ public class StepDef_Homepage {
 		user.embedScreenshot(DriverFactory.getDriver(), SetUp.Sc, "Succesfully the hoempage is loged in to");
 		}catch(Exception e)
 		{
-			
+			System.out.println(e.getMessage());
 		}
 	}
 
